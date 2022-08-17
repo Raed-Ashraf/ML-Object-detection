@@ -31,6 +31,9 @@ Darknet-53 mainly composed of 3 x 3 and 1 x 1 filters with skip connections like
 *	YOLO v3 uses a variant of Darknet, which originally has 53 layer network trained on Imagenet.
 *	For the task of detection, 53 more layers are stacked onto it, giving us a 106 layer fully convolutional underlying architecture for YOLO v3.
 *	In YOLO v3, the detection is done by applying 1 x 1 detection kernels on feature maps of three different sizes at three different places in the network.
+
+![](images/YOLOv3 Net_Structure.png)
+
 *	The shape of detection kernel is 1 x 1 x (B x (5 + C)). Here B is the number of bounding boxes a cell on the feature map can predict, '5' is for the 4 bounding box attributes and one object confidence and C is the no. of classes.
 In our project we can see B of each detection kernels of our three (the number bounding boxes each output layer can predict) as follows:
 
