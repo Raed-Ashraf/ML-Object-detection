@@ -8,4 +8,4 @@ The first version proposed the general architecture, where the second version re
 It is based on the idea that:
 " A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. "
 
-![](Images/YOLOv3_architecture.PNG)
+![](images/YOLOv3_architecture.PNG)
