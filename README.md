@@ -22,7 +22,8 @@ It is based on the idea that:
 
 ## Darknet-53
 Darknet-53 is a convolutional neural network that acts as a backbone for the YOLOv3 object detection approach. Darknet-53 is used as a feature extractor.
-DarkNet-53 is a convolutional neural network that is 53 layers deep. Darknet-53 mainly composed of 3 x 3 and 1 x 1 filters with skip connections like the residual network in ResNet.
+DarkNet-53 is a convolutional neural network that is 53 layers deep. 
+Darknet-53 mainly composed of 3 x 3 and 1 x 1 filters with skip connections like the residual network in ResNet.
 
 ![](images/Daarknet_53.png)
 
