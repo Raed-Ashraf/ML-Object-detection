@@ -49,5 +49,6 @@ The following 80 classes are available using COCO’s pre-trained weights:
 
 ![](images/COCO.PNG)
 
+### Notice that:
 
 
