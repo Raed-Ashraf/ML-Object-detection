@@ -50,5 +50,20 @@ The following 80 classes are available using COCO’s pre-trained weights:
 ![](images/COCO.PNG)
 
 ### Notice that:
+The default network diagram is as follows:
+
+![](images/YOLOv3_diagram.PNG)
+
+As you can see, the input image should be in a specific size as model designed. In the image above, the input size should be 416x416 pixels. using that structure we need specific config and weights files.
+
+In our project we are using another structure for performance and speed purposes. As shown in the image below, we are using model YOLOv3-320, at which the input image should be resized to be 320x320 pixels.
+
+![](images/YOLOv3_confg.PNG)
+
+## Code work
+
+
+
+
 
 
