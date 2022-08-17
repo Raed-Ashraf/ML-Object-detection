@@ -17,3 +17,4 @@ It is based on the idea that:
     *	85 = 5 + 80, where 5 is (pc, bx, by, bh, bw) and 80 is the number of classes we want to detect.
 *	The output is a list of bounding boxes along with the recognized classes. Each bounding box is represented by 6 numbers (pc, bx, by, bh, bw, c). If we expand c into an 80-dimensional vector, each bounding box is represented by 85 numbers.
 *	Finally, we do the IoU (Intersection over Union) and Non-Max Suppression to avoid selecting overlapping boxes.
+![My Remote Image](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
