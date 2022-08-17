@@ -11,7 +11,7 @@ It is based on the idea that:
 ## Object detecion steps in YOLOv3
 *	The input is a batch of images of shape (m, 416, 416, 3).
 *	YOLO v3 passes this image to a convolutional neural network (CNN).
-*	The last two dimensions of the above output are flattened to get an output volume of (19, 19, 425):
+*	The last dimensions of the output are flattened to get an output volume of (19, 19, 425):
     *	Here, each cell of a 19 x 19 grid returns 425 numbers.
     *	425 = 5 * 85, where 5 is the number of anchor boxes per grid.
     *	85 = 5 + 80, where 5 is (pc, bx, by, bh, bw) and 80 is the number of classes we want to detect.
