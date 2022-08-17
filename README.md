@@ -40,4 +40,6 @@ In our project we can see B of each detection kernels of our three (the number b
 ![](images/Model_3_outputs_shape.png)
 
 ## How to use YOLOv3
-First we need to download the model files. Weights and cfg (or configuration) files can be downloaded from the website of the original creator of YOLOv3: 
+First we need to download the model files. Weights and cfg (or configuration) files can be downloaded from the website of the original creator of YOLOv3 >> [LINK](https://pjreddie.com/darknet/yolo)
+
+
