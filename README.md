@@ -61,6 +61,18 @@ In our project we are using another structure for performance and speed purposes
 ![](images/YOLOv3_confg.png)
 
 ## Code work
+To use YOLOv3 for our object detection project, we do the following code steps:
+*	Load YOLOv3 model using both of (config file, weights file).
+*	Load the 80 classes from the file COCO names file and encode them in a list.
+*	Take image (either a downloaded one, or a frame of a live video for live object detection)
+*	Make a blob object from the image taken to make the image ready for our network.
+*	Pass this blob object as an input to our model network.
+*	Extract the output of the three output layers from the network, which consists of a lot of bounding boxes as described before.
+*	Now, we need to extract the information of these bounding boxes from the output and filter these boxes with specific confidence thresholds, so that we get only bounding boxes that we are sure of containing an object.
+*	Using the information of bounding boxes that exceed the confidence threshold, we can now draw our rectangles around objects of these bounding boxes.
+
+## Project Video
+
 
 
 
