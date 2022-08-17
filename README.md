@@ -18,4 +18,4 @@ It is based on the idea that:
 *	The output is a list of bounding boxes along with the recognized classes. Each bounding box is represented by 6 numbers (pc, bx, by, bh, bw, c). If we expand c into an 80-dimensional vector, each bounding box is represented by 85 numbers.
 *	Finally, we do the IoU (Intersection over Union) and Non-Max Suppression to avoid selecting overlapping boxes.
 
-![](/images/YOLOv3_output.PNG)
+![](images/YOLOv3_output.png)
