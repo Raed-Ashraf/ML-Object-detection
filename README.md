@@ -72,6 +72,7 @@ To use YOLOv3 for our object detection project, we do the following code steps:
 *	Using the information of bounding boxes that exceed the confidence threshold, we can now draw our rectangles around objects of these bounding boxes.
 
 ## Project Video
+Here you can find a video in which I use the model to predict some downloaded images >> [Video](https://drive.google.com/file/d/18zpPRlzPUzNlusxVVR_2XsDHYo45ghZX/view?usp=sharing)
 
 
 
