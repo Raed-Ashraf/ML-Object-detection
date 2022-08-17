@@ -46,7 +46,7 @@ Download the model files and put them in the same directory of the project file.
 This model is pre-trained on the COCO dataset, Using COCO’s pre-trained weights means that you can only use YOLO for object detection with any of the 80 pre-trained classes that come with the COCO dataset. This is a good option for beginners because it requires the least amount of new code and customization. 
 The following 80 classes are available using COCO’s pre-trained weights:
 
-![](images/COCO.png)
+![](images/COCO.PNG)
 
 
 
