@@ -40,7 +40,8 @@ In our project we can see B of each detection kernels of our three (the number b
 ![](images/Model_3_outputs_shape.png)
 
 ## How to use YOLOv3
-First we need to download the model files. Weights and cfg (or configuration). files can be downloaded from the website of the original creator of YOLOv3 >> [LINK](https://pjreddie.com/darknet/yolo)
+First we need to download the model files. Weights and cfg (or configuration). files can be downloaded from the website of the original creator of YOLOv3 >> [LINK](https://pjreddie.com/darknet/yolo).
+
 Download the model files and put them in the same directory of the project file.
 
 This model is pre-trained on the COCO dataset, Using COCO’s pre-trained weights means that you can only use YOLO for object detection with any of the 80 pre-trained classes that come with the COCO dataset. This is a good option for beginners because it requires the least amount of new code and customization. 
